@@ -16,7 +16,13 @@
  * specific language governing permissions and limitations
  * under the License.
 -->
+===================
+add by woodsrong@qq.com
+===================
+1. add admin dir（containing start.sh, restart.sh & stop.sh）;
+2. add ./index.js， using master process to listen on the child_process of weinre worker. When the child_process of weinre was killed for some uncaught expetions, the mater process will restart it.
 
+===================
 weinre is WEb INspector REmote.
 Pronounced like the word "winery".
 Or maybe like the word "weiner".
